@@ -1,0 +1,90 @@
+<!-- YamaTrail トップページ ワイヤーフレームHTML（構造のみ） -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YamaTrail - タイムライン</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header, footer { background: #fff; padding: 10px 16px; border-bottom: 1px solid #ddd; }
+    .post-card { background: #fff; margin: 12px; padding: 12px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .post-header { display: flex; align-items: center; justify-content: space-between; }
+    .post-meta { font-size: 12px; color: #888; }
+    .post-body img { width: 100%; max-height: 240px; object-fit: cover; border-radius: 4px; margin-top: 8px; }
+    .actions { display: flex; gap: 16px; margin-top: 8px; font-size: 14px; color: #555; }
+    nav { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; border-top: 1px solid #ccc; display: flex; justify-content: space-around; padding: 6px 0; }
+    nav button { background: none; border: none; font-size: 14px; color: #333; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>YamaTrail</h2>
+</header>
+
+<main>
+  <!-- 投稿カード例 -->
+  <div class="post-card">
+    <div class="post-header">
+      <div><strong>yama_san</strong>（登山）</div>
+      <div class="post-meta">2025/05/21</div>
+    </div>
+    <div class="post-body">
+      <p>剣山に登ってきました！天気最高で最高の景色でした！</p>
+      <img src="img/ken.jpg" alt="投稿画像">
+    </div>
+    <div class="actions">
+      <span>♡ 12</span>
+      <span>💬 3</span>
+      <span>＋フォロー</span>
+      <span>↗ シェア</span>
+    </div>
+  </div>
+  <!-- 投稿カード例 -->
+  <div class="post-card">
+    <div class="post-header">
+      <div><strong>yuki_san</strong>（雪山滑走）</div>
+      <div class="post-meta">2025/05/21</div>
+    </div>
+    <div class="post-body">
+      <p>焼岳に登ってきました！天気最高で最高の景色でした！</p>
+      <img src="img/Photo1.jpg" alt="投稿画像">
+    </div>
+    <div class="actions">
+      <span>♡ 12</span>
+      <span>💬 3</span>
+      <span>＋フォロー</span>
+      <span>↗ シェア</span>
+    </div>
+  </div>
+    <!-- 投稿カード例 -->
+  <div class="post-card">
+    <div class="post-header">
+      <div><strong>yuki_san</strong>（雪山滑走）</div>
+      <div class="post-meta">2025/05/21</div>
+    </div>
+    <div class="post-body">
+      <p>唐松岳に行きました！天気最高で最高の景色でした！</p>
+      <img src="img/kara.jpg" alt="投稿画像">
+    </div>
+    <div class="actions">
+      <span>♡ 12</span>
+      <span>💬 3</span>
+      <span>＋フォロー</span>
+      <span>↗ シェア</span>
+    </div>
+  </div>
+
+  <!-- 他の投稿も同様に続く -->
+</main>
+
+<nav>
+  <button>ホーム</button>
+  <button>投稿</button>
+  <button>通知</button>
+  <button>マイページ</button>
+</nav>
+
+</body>
+</html>
